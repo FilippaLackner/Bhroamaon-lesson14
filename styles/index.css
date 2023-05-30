@@ -181,8 +181,6 @@ button {
     transition: 0.5s ease-in-out
 }
 
-
-
 .grid_container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -228,4 +226,77 @@ button {
  }
  .fa-inverse3{
     color:#00A2FF;
+ }
+
+ .shape {
+    color:#E8E8E8;
+    background-color:#333333;
+ }
+
+ .section3{
+    background-image: url(../images/condo.png);
+    background-size: cover;
+    max-width: 1770px;
+    width: 100%;
+    height:700px;
+    display:flex;
+    align-items:center;
+ }
+
+ .book_container1, .book_container2{
+    border:none;
+    max-width:543px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    background-color:#232323;
+    opacity:90%;
+    padding: 20px;
+ }
+
+ .book_container1{
+    margin-left: 50px;
+ }
+ .book_container2{
+    margin-right:50px;
+ }
+
+ .section3 h3, .section4 h3{
+    font-size:20px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+ }
+
+ .section3 h2, .section4 h2 {
+    color: white;
+    font-size:20px;
+ }
+
+ .section3 p, .section4 p{
+    color:#E8E8E8;
+    
+ }
+
+ .section3 button, .section4 button{
+    max-width:228px;
+    width:100%;
+    border:none;
+    padding: 20px;
+
+ }
+ .section3 button:hover, .section4 button:hover{
+    background-color:lightblue;
+    transition: 0.5s ease-in-out
+ }
+
+ .section4{
+    background-image:url(../images/ocean.png);
+    background-size: cover;
+    max-width: 1770px;
+    width: 100%;
+    height:700px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    
  }
