@@ -340,3 +340,31 @@ button {
  .fa-inverse4{
     color:#5474FD;
  }
+
+ .footer {
+    background-color:#232323 ;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    
+    height:271px;
+ }
+
+ .social {
+    display:flex;
+   
+ }
+ .social a{
+    padding:15px;
+    cursor:pointer;
+ }
+ .footer h4{
+    font-size:16px;
+    letter-spacing: 1.6px;
+    color:white;
+ }
+
+ .fa-inverse5{
+    color:white;
+ }
