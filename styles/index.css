@@ -199,3 +199,33 @@ button {
     grid-column: 2 / 5;
  }
 
+ .icon_connections {
+    box-sizing: border-box;
+    background-color:#333333;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 340px;
+    
+
+ }
+ .icon_text{
+    color: #E8E8E8;
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+ }
+.search, .select, .book{
+    text-align:center;
+}
+ 
+ .fa-inverse {
+    color:#5474FD;
+ }
+
+ .fa-inverse2 {
+    color: #FF6363;
+ }
+ .fa-inverse3{
+    color:#00A2FF;
+ }
