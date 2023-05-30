@@ -1,3 +1,6 @@
+/*Unable to use SASS because of problems with Prepros, compiling issues etc, so this project is made of pure CSS*/
+
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     
@@ -198,24 +201,34 @@ button {
  }
 
  .icon_connections {
-    box-sizing: border-box;
+   
     background-color:#333333;
     border: none;
     display: flex;
-    justify-content: space-around;
     align-items:center;
+    flex-direction:column;
     height: 340px;
-    
+   
+}
 
+ .icon_container{
+    display:flex;
+    justify-content: space-between;
+    
  }
+
  .icon_text{
     color: #E8E8E8;
     font-family: 'Aleo', serif;
     font-size: 36px;
+    margin:50px 100px 50px;
+    /* I'm aware that we are not supposed to use large margins, but this is as close I got to the figma design for this part.. Don't know how to do it any other way.*/
  }
 .search, .select, .book{
-    text-align:center;
+    text-align: center;
+
 }
+
  
  .fa-inverse {
     color:#5474FD;
@@ -230,10 +243,10 @@ button {
 
  .shape {
     color:#E8E8E8;
-    background-color:#333333;
+    
  }
 
- .section3{
+ .section3 {
     background-image: url(../images/condo.png);
     background-size: cover;
     max-width: 1770px;
