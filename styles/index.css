@@ -134,8 +134,51 @@ button {
 
 }
 
+.section2 {
+    background-image: url("../images/image2-background.png");
+    background-size:cover;
+    max-width: 17770px;
+    width: 100%;
+    height: 685px;
+    display: flex;
+    align-items: center;
 
-    
+
+}
+.section2_h1 {
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    line-height: 26px;
+
+}
+
+.section2_undertext {
+    color:white;
+    max-width: 560px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-top: 40px;
+
+
+}
+
+.explore_btn {
+    font-family: 'Aleo', serif;
+    max-width: 179px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    border: none;
+    margin-top:30px;
+}
+
+.explore_btn:hover{
+    background-color:lightblue;
+    transition: 0.5s ease-in-out
+}
 
 
 
