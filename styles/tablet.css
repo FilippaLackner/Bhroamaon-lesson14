@@ -1,3 +1,5 @@
+/*Unable to use SASS because of problems with Prepros, compiling issues etc, so this project is made of pure CSS*/
+
 @media screen and (max-width:920px){
 
 .section2{
@@ -21,5 +23,10 @@
 }
 .shape{
     display:none;
+}
+.elipsis__icon{
+    display:flex;
+    justify-content: flex-end;
+    float:right;
 }
 }

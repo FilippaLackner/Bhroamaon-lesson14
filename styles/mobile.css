@@ -1,3 +1,5 @@
+/*Unable to use SASS because of problems with Prepros, compiling issues etc, so this project is made of pure CSS*/
+
 @media screen and (max-width:650px){
     .body{
         align-items:center;
@@ -61,5 +63,4 @@
         font-size: 12px;
         max-width: 320px;
     }
-
 }
