@@ -1,0 +1,141 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.section1 {
+    background-image: url("../images/image1.png");
+    background-size:cover;
+    max-width: 1770px;
+    width: 100%;
+    min-height:820px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    
+    
+}
+
+.header_text {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+
+}
+
+.section1_h1 {
+    
+    color: white;
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 48px;
+    margin-bottom: 5px;
+    letter-spacing: 4.8px;
+   
+}
+
+.section1_h2 {
+    font-weight: 400;
+    color:white;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.8px;
+}
+
+.search_btn {
+    max-width: 653px;
+    width: 100%;
+    min-height: 63px;
+    box-sizing: border-box;
+    display:flex;
+    margin-top: 50px;
+    
+}
+
+input {
+    
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    font-weight: 400px;
+    float: left;
+    width: 653px;
+    border: solid white;
+    text-align: center;
+  
+    
+}
+
+button {
+    border: solid white;
+    border-width: thin;
+    width: 153px;
+    color: white;
+    height: 63px;
+    background-color: #5474FD;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    font-family: 'Aleo', serif;
+    cursor: pointer;
+
+}
+
+.scroll-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: white;
+
+}
+.navbar {
+    background-color: #5474FD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo {
+  height: 20px;
+  max-width:186px;
+  width: 100%;
+  
+   
+
+}
+.navbar_menu {
+    display: flex;
+
+}
+.navbar_menu li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navbar_menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Aleo', serif;
+    cursor: pointer;
+    
+
+}
+.navbar_menu li a:hover{
+    display: inline-block;
+    border-bottom:1px solid;
+
+}
+
+
+    
+
+
+
