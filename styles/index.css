@@ -119,10 +119,15 @@ button:hover{
   height: 20px;
   max-width:186px;
   width: 100%;
-  
-   
-
 }
+
+.favicon{
+    margin-right:10px;
+}
+.logo_favicon{
+    display:flex;
+}
+
 .navbar_menu {
     display: flex;
 
