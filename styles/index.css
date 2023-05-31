@@ -100,8 +100,13 @@ button:hover{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 2.8px;
-    color: white;
+    color:white;
+}
 
+.scroll-down a {
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
 }
 .navbar {
     background-color: #5474FD;
@@ -174,8 +179,6 @@ button:hover{
     font-size: 16px;
     letter-spacing: 1.6px;
     margin-top: 40px;
-
-
 }
 
 .explore_btn {
@@ -371,7 +374,7 @@ button:hover{
  }
 
  .fa-inverse5:hover{
-    color:lightblue;
+    color: #5474FD;
     transition: 0.5s ease-in-out
  }
  .footer h4{
